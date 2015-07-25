@@ -3,12 +3,12 @@ language: cpp
 compiler:
     - gcc
 
-env:
-    matrix:
-        - PLATFORM = linux DEBUG=1
-
 before_install:
-    - echo $LANG
+    - sudp apt-get update -qq
+
+install:
+    - sudo apt-get install -qq g++-4.8
+    - export CXX="g++-4.8"
 
 script:
     - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum
