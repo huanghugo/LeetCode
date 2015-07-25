@@ -1,9 +1,9 @@
+sudo: false
+
 language: cpp
 
 compiler:
     - gcc
-
-sudo: false
 
 addons:
     apt:
@@ -13,10 +13,10 @@ addons:
 addons:
     apt:
         packages:
-            - g++-5
+            - g++-4.8
 
-install:
-    - export CXX="g++-5"
+before_script:
+    - export CXX="g++-4.8"
 
 script:
     - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum/TwoSum
