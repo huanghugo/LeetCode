@@ -1,0 +1,18 @@
+language: cpp
+
+compiler:
+    - gcc
+
+env:
+    matrix:
+        - PLATFORM = linux DEBUG=1
+
+before_install:
+    - echo $LANG
+
+script:
+    - $CXX TwoSum/TwoSum.cpp -o TwoSum
+
+branches:
+    only:
+        - master
