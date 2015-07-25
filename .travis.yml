@@ -11,7 +11,7 @@ before_install:
     - echo $LANG
 
 script:
-    - $CXX TwoSum/TwoSum.cpp -o TwoSum
+    - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum
 
 branches:
     only:
