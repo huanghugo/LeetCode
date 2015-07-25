@@ -12,7 +12,7 @@ install:
     - export CXX="g++-4.8"
 
 script:
-    - $CXX -std=c++11 TwoSum/TwoSum.cpp -o output/TwoSum
+    - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum/TwoSum
 
 branches:
     only:
