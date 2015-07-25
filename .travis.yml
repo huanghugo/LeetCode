@@ -16,7 +16,7 @@ addons:
             - g++-5
 
 install:
-    - export CXX="g++-4.8"
+    - export CXX="g++-5"
 
 script:
     - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum/TwoSum
