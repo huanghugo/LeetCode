@@ -16,6 +16,7 @@ addons:
 
 script:
     - $CXX -std=c++11 TwoSum/TwoSum.cpp -o TwoSum/TwoSum
+    - $CXX -std=c++11 AddTwoNumbers/AddTwoNumbers.cpp -o AddTwoNumbers/AddTwoNumbers
 
 branches:
     only:
