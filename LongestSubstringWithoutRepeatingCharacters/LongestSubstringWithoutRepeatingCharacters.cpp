@@ -3,8 +3,8 @@
 //-----------------------------------------------------------------------------
 
 #include <string>
+#include <cstring>
 #include <algorithm>
-#include <iostream>
 
 class Solution
 {
@@ -12,7 +12,7 @@ public:
     int lengthOfLongestSubstring( std::string s )
     {
         int record[256];
-        memset( record, -1, sizeof( int ) * 256 );
+        std::memset( record, -1, sizeof( int ) * 256 );
 
         int maxLength = 0;
         int lastRepeatPos = -1;
