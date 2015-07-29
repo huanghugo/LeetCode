@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.vcxproj", "{835E9FF9-1FB4-4CDF-B62C-2CA68A14CB88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.vcxproj", "{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -32,6 +34,14 @@ Global
 		{835E9FF9-1FB4-4CDF-B62C-2CA68A14CB88}.Release|x64.Build.0 = Release|x64
 		{835E9FF9-1FB4-4CDF-B62C-2CA68A14CB88}.Release|x86.ActiveCfg = Release|Win32
 		{835E9FF9-1FB4-4CDF-B62C-2CA68A14CB88}.Release|x86.Build.0 = Release|Win32
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Debug|x64.ActiveCfg = Debug|x64
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Debug|x64.Build.0 = Debug|x64
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Debug|x86.Build.0 = Debug|Win32
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Release|x64.ActiveCfg = Release|x64
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Release|x64.Build.0 = Release|x64
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Release|x86.ActiveCfg = Release|Win32
+		{EDE7834C-F1D0-4C63-8F05-E7D941812CFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
