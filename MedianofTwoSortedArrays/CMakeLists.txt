@@ -1,4 +1,4 @@
 cmake_minimum_required (VERSION 2.8)
 
-project (MedianofTwoSortedArrays )
+project (MedianofTwoSortedArrays)
 add_executable(MedianofTwoSortedArrays  MedianofTwoSortedArrays.cpp)
